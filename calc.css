@@ -7,7 +7,7 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
-  
+     height: 100vh;
 }
   .calculator {
     margin: auto;
@@ -83,16 +83,8 @@ body{
   border: none;
 
 }
-@media (max-width:450px){
+@media (max-width:350px){
   .calculator{
-    height: 100%;
-    top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
     width: 100%;
   }
-  body,html{
-    height: 100%;
-  }
-    }
+}
